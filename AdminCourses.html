@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+    <nav>
+        <a href="#"><img class="logo" src="image/Demo2.png" height="50px" width="110px"></a>
+        <a href="AdminLogin.html">Home</a>
+        <a href="AdminAboutUs.html">About us</a>
+
+        <div class="dropdown">
+            <a class="btn btn-#D3DBDE dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 18px;">
+             Courses
+            </a>
+          
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="AddCourse.html">Add Course</a></li>
+              <li><a class="dropdown-item" href="UpadateCourse.html">Update course</a></li>
+              <li><a class="dropdown-item" href="DeleteCourse.html">Delete course</a></li>
+            </ul>
+          </div>
+
+          <div class="dropdown">
+            <a class="btn btn-#D3DBDE dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 18px;">
+             Student
+            </a>
+          
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="AddStudent.html">Add Student</a></li>
+              <li><a class="dropdown-item" href="UpdateStudent.html">Update Student</a></li>
+              <li><a class="dropdown-item" href="DeleteStudent.html">Delete Student</a></li>
+            </ul>
+          </div>
+
+          <div class="dropdown">
+            <a class="btn btn-#D3DBDE dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 18px;">
+             Instructor
+            </a>
+          
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="AddInstructor.html">Add Instructor</a></li>
+              <li><a class="dropdown-item" href="UpdateInstructor.html">Update Instructor</a></li>
+              <li><a class="dropdown-item" href="DeleteInstructor.html">Delete Instructor</a></li>
+            </ul>
+          </div>  
+
+        <a href="index.html" style="margin-right: 20px; margin-left: 420px;">Logout</a>
+    </nav> 
+
+    <br>
+    
+    <div>
+    <br><br>
+    <div id="CourseMainDiv">
+        <div class="CourseDiv">
+            <a href="DataAnalystInfo.html"><img src="image/DataAnalyst.jpg" class="CourseImg"></a><br> <br>
+            <h2>Data Analyst</h2>
+            <p class="Fee">Fees: Rs.45,000</p>
+            <a href="DataAnalystInfo.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="JavaFullStackInfo.html"><img src="image/JavaFullstack.png" class="CourseImg"></a><br> <br>
+            <h2>Java Fullstack</h2>
+            <p class="Fee">Fees: Rs.75,000</p>
+            <a href="JavaFullStackInfo.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="DevOpsInfo.html"><img src="image/DevOps.jpg" class="CourseImg"></a><br> <br>
+            <h2>DevOps</h2>
+            <p class="Fee">Fees: Rs.65,000</p>
+            <a href="DevOpsInfo.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="CyberSecurityInfo.html"><img src="image/CyberSecurity.jpg" class="CourseImg"></a><br> <br>
+            <h2>Cyber Security</h2>
+            <p class="Fee">Fees: Rs.55,000</p>
+            <a href="CyberSecurityInfo.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+        
+        
+    </div>
+
+   <br><br>
+
+    <div id="CourseMainDiv">
+        <div class="CourseDiv">
+            <a href="AiInfo.html"><img src="image/AI.jpg" class="CourseImg"></a><br> <br>
+            <h2>AI</h2>
+            <p class="Fee">Fees: Rs.75,000</p>
+            <a href="AiInfo.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="CloudComputingInfo.html"><img src="image/CloudComputing.jpg" class="CourseImg"></a><br> <br>
+            <h2>Cloud Computing</h2>
+            <p class="Fee">Fees: Rs.65,000</p>
+            <a href="CloudComputingInfo.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="MERNstackInfo.html"><img src="image/MERN.jpg" class="CourseImg"></a><br> <br>
+            <h2>MERN Stack</h2>
+            <p class="Fee">Fees: Rs.55,000</p>
+            <a href="MERNstackInfo.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="UI-UXDesignInfo.html"><img src="image/UI-UX.jpg" class="CourseImg"></a> <br> <br>
+            <h2>UI/UX Design</h2>
+            <p class="Fee">Fees: Rs.45,000</p>
+            <a href="UI-UXDesignInfo.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+        
+    
+    </div>
+
+    <br><br>
+
+    <div id="CourseMainDiv">
+        <div class="CourseDiv">
+            <a href="AngularJsInfo.html"><img src="image/Angular.png" class="CourseImg"></a><br> <br>
+            <h2>Angular Js</h2>
+            <p class="Fee">Fees: Rs.45,000</p>
+            <a href="AngularJsInfo.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="AutomationTestingInfo.html"><img src="image/AutomationTesting.png" class="CourseImg"></a><br> <br>
+            <h2>Automation Testing</h2>
+            <p class="Fee">Fees: Rs.55,000</p>
+            <a href="AutomationTestingInfo.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="AWSInfo.html"><img src="image/aws.jpg" class="CourseImg"></a><br> <br>
+            <h2>AWS</h2>
+            <p class="Fee">Fees: Rs.25,000</p>
+            <a href="AWSInfo.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="AzureInfo.html"><img src="image/azure.png" class="CourseImg"></a><br> <br>
+            <h2>Azure</h2>
+            <p class="Fee">Fees: Rs.25,000</p>
+            <a href="AzureInfo.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+        
+    
+    </div>
+
+
+    <br><br>
+
+    <div id="CourseMainDiv">
+        <div class="CourseDiv">
+            <a href="BlockChain.html"><img src="image/BlockChain.jpg" class="CourseImg"></a><br> <br>
+            <h2>Block Chain</h2>
+            <p class="Fee">Fees: Rs.60,000</p>
+            <a href="BlockChain.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="Bootstrap5.html"><img src="image/bootstrap5.jpg" class="CourseImg"></a><br> <br>
+            <h2>Bootstrap5</h2>
+            <p class="Fee">Fees: Rs.1,000</p>
+            <a href="Bootstrap5.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="C++.html"><img src="image/C++.png" class="CourseImg"></a><br> <br>
+            <h2>C++ programming</h2>
+            <p class="Fee">Fees: Rs.5,000</p>
+            <a href="C++.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="C.html"><img src="image/C.jpg" class="CourseImg"></a><br> <br>
+            <h2>C programming</h2>
+            <p class="Fee">Fees: Rs.3,000</p>
+            <a href="C.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+        
+    
+    </div>
+
+    <br><br>
+
+    <div id="CourseMainDiv">
+        <div class="CourseDiv">
+            <a href="CSS3.html"><img src="image/CSS3.png" class="CourseImg"></a><br> <br>
+            <h2>CSS3</h2>
+            <p class="Fee">Fees: Rs.3,000</p>
+            <a href="CSS3.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="Database.html"><img src="image/Database.jpg" class="CourseImg"></a><br> <br>
+            <h2>Database</h2>
+            <p class="Fee">Fees: Rs.25,000</p>
+            <a href="Database.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="DataScience.html"><img src="image/DataScience.jpg" class="CourseImg"></a><br> <br>
+            <h2>Data Science</h2>
+            <p class="Fee">Fees: Rs.75,000</p>
+            <a href="DataScience.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="DigitalMarketing.html"><img src="image/DigitalMarketing.jpg" class="CourseImg"></a><br> <br>
+            <h2>Digital Marketing</h2>
+            <p class="Fee">Fees: Rs.45,000</p>
+            <a href="DigitalMarketing.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+        
+    
+    </div>
+
+    <br><br>
+
+    <div id="CourseMainDiv">
+        <div class="CourseDiv">
+            <a href="Django.html"><img src="image/django.jpg" class="CourseImg"></a><br> <br>
+            <h2>Django</h2>
+            <p class="Fee">Fees: Rs.5,000</p>
+            <a href="Django.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="Excel.html"><img src="image/Excel.png" class="CourseImg"></a><br> <br>
+            <h2>Excel</h2>
+            <p class="Fee">Fees: Rs.15,000</p>
+            <a href="Excel.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="Flutter.html"><img src="image/flutter.png" class="CourseImg"></a><br> <br>
+            <h2>Flutter</h2>
+            <p class="Fee">Fees: Rs.45,000</p>
+            <a href="Flutter.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="Go.html"><img src="image/Go.png" class="CourseImg"></a><br> <br>
+            <h2>Go programming</h2>
+            <p class="Fee">Fees: Rs.55,000</p>
+            <a href="Go.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+        
+    
+    </div>
+    
+    <br><br>
+
+    <div id="CourseMainDiv">
+        <div class="CourseDiv">
+            <a href="EthicalHacking.html"><img src="image/hacking.jpg" class="CourseImg"></a><br> <br>
+            <h2>Hacking</h2>
+            <p class="Fee">Fees: Rs.85,000</p>
+            <a href="EthicalHacking.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="HTML5.html"><img src="image/HTML5.png" class="CourseImg"></a><br> <br>
+            <h2>HTML5</h2>
+            <p class="Fee">Fees: Rs.1,500</p>
+            <a href="HTML5.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="Java.html"><img src="image/Java.jpg" class="CourseImg"></a><br> <br>
+            <h2>Java</h2>
+            <p class="Fee">Fees: Rs.55,000</p>
+            <a href="Java.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="jquery.html"><img src="image/jquery.jpg" class="CourseImg"></a><br> <br>
+            <h2>jQuery</h2>
+            <p class="Fee">Fees: Rs.5,000</p>
+            <a href="jquery.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+        
+    
+    </div>
+
+
+    <br><br>
+
+    <div id="CourseMainDiv">
+        <div class="CourseDiv">
+            <a href="javascript.html"><img src="image/js.png" class="CourseImg"></a><br> <br>
+            <h2>JavaScript</h2>
+            <p class="Fee">Fees: Rs.15,000</p>
+            <a href="javascript.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="Kotlin.html"><img src="image/kotlin.png" class="CourseImg"></a><br> <br>
+            <h2>Kotlin Programming</h2>
+            <p class="Fee">Fees: Rs.45,000</p>
+            <a href="Kotlin.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="ManualTeasting.html"><img src="image/ManualTesting.jpg" class="CourseImg"></a><br> <br>
+            <h2>Manual Testing</h2>
+            <p class="Fee">Fees: Rs.45,000</p>
+            <a href="ManualTeasting.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="MERN.html"><img src="image/MEAN.jpg" class="CourseImg"></a><br> <br>
+            <h2>MEAN Stack</h2>
+            <p class="Fee">Fees: Rs.45,000</p>
+            <a href="MERN.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+        
+    
+    </div>
+
+    <br><br>
+
+    <div id="CourseMainDiv">
+        <div class="CourseDiv">
+            <a href="MachineLearning.html"><img src="image/ML.jpg" class="CourseImg"></a><br> <br>
+            <h2>Machine Learning</h2>
+            <p class="Fee">Fees: Rs.65,000</p>
+            <a href="MachineLearning.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="Nextjs.html"><img src="image/next.png" class="CourseImg"></a><br> <br>
+            <h2>Next js</h2>
+            <p class="Fee">Fees: Rs.10,000</p>
+            <a href="Nextjs.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="Nodejs.html"><img src="image/node.png" class="CourseImg"></a><br> <br>
+            <h2>Node js</h2>
+            <p class="Fee">Fees: Rs.15,000</p>
+            <a href="Nodejs.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="Oracle.html"><img src="image/OracleCourse.jpg" class="CourseImg"></a><br> <br>
+            <h2>Oracle</h2>
+            <p class="Fee">Fees: Rs.40,000</p>
+            <a href="Oracle.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+        
+    
+    </div>
+
+
+    <br><br>
+
+    <div id="CourseMainDiv">
+        <div class="CourseDiv">
+            <a href="Perl.html"><img src="image/Perl.jpg" class="CourseImg"></a><br> <br>
+            <h2>Perl Programming</h2>
+            <p class="Fee">Fees: Rs.45,000</p>
+            <a href="Perl.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="php.html"><img src="image/php.png" class="CourseImg"></a><br> <br>
+            <h2>PHP Programming</h2>
+            <p class="Fee">Fees: Rs.35,000</p>
+            <a href="php.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="plSql.html"><img src="image/PL-SQL.png" class="CourseImg"></a><br> <br>
+            <h2>Pl/SQL</h2>
+            <p class="Fee">Fees: Rs.25,000</p>
+            <a href="plSql.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="PowerBi.html"><img src="image/PowerBi.png" class="CourseImg"></a><br> <br>
+            <h2>PowerBi</h2>
+            <p class="Fee">Fees: Rs.25,000</p>
+            <a href="PowerBi.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+        
+    
+    </div>
+
+    <br><br>
+
+    <div id="CourseMainDiv">
+        <div class="CourseDiv">
+            <a href="Python.html"><img src="image/Python.jpg" class="CourseImg"></a><br> <br>
+            <h2>Python Programming</h2>
+            <p class="Fee">Fees: Rs.45,000</p>
+            <a href="Python.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="PythonFullStack.html"><img src="image/PythonFullstack.jpg" class="CourseImg"></a><br> <br>
+            <h2>Python Fullstack</h2>
+            <p class="Fee">Fees: Rs.75,000</p>
+            <a href="PythonFullStack.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="React.html"><img src="image/React.jpg" class="CourseImg"></a><br> <br>
+            <h2>React</h2>
+            <p class="Fee">Fees: Rs.25,000</p>
+            <a href="React.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="Ruby.html"><img src="image/Ruby.jpg" class="CourseImg"></a><br> <br>
+            <h2>Ruby Programming</h2>
+            <p class="Fee">Fees: Rs.45,000</p>
+            <a href="Ruby.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+        
+    
+    </div>
+
+
+    <br><br>
+
+    <div id="CourseMainDiv">
+        <div class="CourseDiv">
+            <a href="Spring.html"><img src="image/spring.png" class="CourseImg"></a><br> <br>
+            <h2>Spring</h2>
+            <p class="Fee">Fees: Rs.15,000</p>
+            <a href="Spring.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="Springboot.html"><img src="image/springboot.png" class="CourseImg"></a><br> <br>
+            <h2>Springboot</h2>
+            <p class="Fee">Fees: Rs.15,000</p>
+            <a href="Springboot.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="SQL.html"><img src="image/SQL.png" class="CourseImg"></a><br> <br>
+            <h2>SQL</h2>
+            <p class="Fee">Fees: Rs.25,000</p>
+            <a href="SQL.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="Swift.html"><img src="image/swift.jpg" class="CourseImg"></a><br> <br>
+            <h2>Swift Programming</h2>
+            <p class="Fee">Fees: Rs.45,000</p>
+            <a href="Swift.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+        
+    
+    </div>
+
+    <br><br>
+
+    <div id="CourseMainDiv">
+        <div class="CourseDiv">
+            <a href="Tableau.html"><img src="image/tableau.jpg" class="CourseImg"></a><br> <br>
+            <h2>Tableau</h2>
+            <p class="Fee">Fees: Rs.15,000</p>
+            <a href="Tableau.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="TailwindCSS.html"><img src="image/TailwindCSS.jpg" class="CourseImg"></a><br> <br>
+            <h2>Tailwind CSS</h2>
+            <p class="Fee">Fees: Rs.5,000</p>
+            <a href="TailwindCSS.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="WebDevelopment.html"><img src="image/WebDevelopment.jpg" class="CourseImg"></a><br> <br>
+            <h2>Web Development</h2>
+            <p class="Fee">Fees: Rs.35,000</p>
+            <a href="WebDevelopment.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+
+        <div class="CourseDiv">
+            <a href="AutomationTesting.html"><img src="image/AutomationTesting.png" class="CourseImg"></a><br> <br>
+            <h2>Automation Testing</h2>
+            <p class="Fee">Fees: Rs.45,000</p>
+            <a href="AutomationTesting.html">View Details</a><br><br>
+            <a href="EntrollNow.html"><button class="EntrollBtn">Entroll Now</button></a>
+        </div>
+        
+    
+    </div>
+
+    
+</div>
+
+
+<div id="Footer1" style="margin-top: 20px;">
+
+    <div class="FooterContent">
+        <h1 style="color: red; padding-left: 10px;"><i>SkillHub</i></h1>
+        <p style="padding-left: 10px;">SkillHub is a leading online learning platform that helps students and professionals upskill with industry-relevant courses. Our expert-designed curriculum covers in-demand technologies, ensuring learners stay ahead in their careers. Whether you're looking to master programming, data analytics, DevOps, or full-stack development, SkillHub provides hands-on training, real-world projects, and career guidance. Join thousands of learners who have successfully upskilled and secured jobs at top tech companies. Start your learning journey today and unlock new opportunities!</p>
+    </div>
+
+    <div class="FooterContent">
+        <div class="FooterText">
+        <h3 style="padding-top: 24px; color:orange ;">Get In Touch</h3>
+        <p>1234 Kharadi,Pune</p>
+        <p>skillhub@gmail.com</p>
+        <p>+1 234 567 890</p>
+        <p>09:00 AM - 08:00 PM</p>
+        </div>
+    </div>
+
+    <div class="FooterContent">
+        <div class="FooterText">
+        <h3 style="padding-top: 24px;color:orange ;">Quick Links</h3>
+        <p><a href="./index.html" style="color: white; text-decoration: none;">Home</a></p>
+        <p><a href="./about.html" style="color: white; text-decoration: none;">About Us</a></p>
+        <p><a href="./Courses.html" style="color: white; text-decoration: none;">Courses</a></p>
+        <p><a href="./ContactUs.html" style="color: white; text-decoration: none;">Contact us</a></p>
+        </div>
+    </div>
+
+    <div class="FooterContent">
+        <div class="FooterText">
+            <h3 style="padding-top: 24px;color:orange ;">Follow Us</h3>
+        <img src="image/Facebook.png" height="30px">
+        <img src="image/Twitter.jpg" height="30px" style="margin-left: 8px;">
+        <img src="image/insta.jpg" height="30px" style="margin-left: 12px;">       
+        </div>     
+    </div>
+
+</div>
+
+<div id="Footer2">
+    <h4>@2025 SkillHub.All rights reserved.</h4>
+    <h4>Privacy Policy</h4>
+    <h4>Terms of Service</h4>
+</div>
+
+    
+
+
+</body>
+</html>

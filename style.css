@@ -1,0 +1,509 @@
+nav
+{
+    background-color: #D3DBDE;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    z-index: 5;
+    width: 100%;
+}
+
+nav a
+{
+   font-size: 18px;
+   color: black;
+   text-decoration: none;
+   /* padding-right: 35px; */
+}
+
+.logo
+{
+    opacity: 0.8;
+}
+
+.img
+{
+    /* background-image: url(image/BackgroundImg.jpg); */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 500px;
+    /* opacity: 0.6; */
+    padding-top: 5px;
+}
+
+#CourseMainDiv
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.CourseDiv
+{
+    height: 400px;
+    width: 300px;   
+    text-align: center; 
+    border-radius: 10px;
+    background-color: #E0E0E0;
+}
+
+.Fee
+{
+    font-weight: bolder;
+    font-size: 17px;
+
+}
+
+.CourseImg
+{
+    height: 170px;
+    width: 250px;
+    padding-top: 15px;
+}
+
+
+#btn1
+{
+   border-radius: 15px;
+   height: 35px;
+   width: 120px;
+   background-color: white;
+   color: blue;
+   font-weight: bolder;  
+}
+
+.company
+{
+    display: inline-block;
+}
+
+.ComImg
+{
+    width: 100px;
+    height: 60px;
+    margin-left: 73px;
+}
+
+.main
+{
+    background-color: powderblue;
+}
+
+.Demo1
+{
+    display: inline-block;
+    margin-left: 370px;
+}
+
+#Placement
+{
+    background-color: #f8f9fa;
+    height: 570px;
+}
+
+.PlacementDiv
+{
+    background-color:#D3DBDE;
+    display: inline-block;
+    height: 440px;
+    width: 310px;
+    margin-left: 120px;
+    border-radius: 20px;
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon
+{
+    filter: invert(1); /* Makes white to black arrow*/
+}
+
+.carousel-indicators [data-bs-target] 
+{
+    background-color: black !important;  /* Make indicators black i.e.--- lines */
+    opacity: 0.5;                         /* Optional: Add a slight fade */
+    
+}
+  
+  .carousel-indicators .active 
+{
+    opacity: 1;                           /* Make active indicator fully visible */
+}
+
+.PlacedStudent
+{
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.aboutus
+{
+    text-align: center;
+    color: #6a6d6e;
+    font-size: 35px;
+    margin-top: 40px;
+}
+
+.about
+{
+    margin-left: 140px;
+    margin-right: 140px;
+    line-height: 23px;
+    font-size: 17px;
+}
+
+.vision
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1
+{
+    height: 390px;
+    width: 370px;
+    border: 2px solid black;
+}
+
+.MainPoint
+{
+    text-decoration: underline;
+}
+
+.CourseTitle
+{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.CourseInfo
+{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.InfoImg
+{
+    height: 300px;
+    width: 350px;
+    float: right;
+    margin-right: 110px;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.Info
+{
+    width: 900px; 
+    float: left;
+    margin-left: 80px;
+
+}
+
+.FreeDemo
+{
+    width: 100%; 
+    height: 300px; 
+    background-color: black; 
+    opacity: 0.7;
+}
+
+.RegisterBtn
+{
+    margin-left: 700px;
+    background-color: red;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Syllabus
+{
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 250px;
+}
+
+.Point
+{
+    display: inline-block; 
+    width: 40%; 
+    height: 180px;
+}
+
+.Fees
+{
+    height: 300px;
+    width: 400px;
+    margin-left: 50px;
+    background-color: #D3DBDE;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.EntrollBtn
+{   
+    background-color: rgb(0, 0, 185) ;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.QueDiv
+{
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 50px;
+    border: 2px solid black;
+    margin-top: 20px;
+    background-color: #D3DBDE;
+}
+
+#Ans1
+{
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 50px;
+    border: 2px solid black;
+    padding-left: 20px;
+    display: none;
+}
+
+#Ans2
+{
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 50px;
+    border: 2px solid black;
+    padding-left: 20px;
+    display: none;
+    padding-top: 10px;
+}
+
+#Ans3
+{
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 50px;
+    border: 2px solid black;
+    padding-left: 20px;
+    display: none;
+    padding-top: 10px;
+}
+
+#Ans4
+{
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 50px;
+    border: 2px solid black;
+    padding-left: 20px;
+    display: none;
+    padding-top: 10px;
+}
+
+#Ans5
+{
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 50px;
+    border: 2px solid black;
+    padding-left: 20px;
+    display: none;
+    padding-top: 10px;
+}
+
+.Que
+{
+    margin-top: 7px;
+    margin-left: 20px;
+}
+
+.Plus
+{
+    float: right;
+    margin-right: 20px;
+    font-size: 30px;
+    margin-top: -6px;
+    cursor: pointer;  
+}
+
+.TittleLine
+{
+    color: white;
+    font-size: 45px;
+    padding-left: 100px;
+    line-height: 40px;
+}
+
+.TittleLine2
+{
+    color: white;
+    font-size: 45px;
+    padding-left: 100px;
+    line-height: 40px;
+}
+
+.LearnMoreBtn
+{
+    background-color: black;
+    color: white; 
+    width: 150px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.ExtraInfo
+{
+    height: 1060px;
+    width: 100%;
+}
+
+.MainContent
+{
+    width: 100%;
+    height: 350px;
+    display: flex;
+}
+
+.Content1
+{
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.Content2
+{
+    height: 300px;
+    width: 450px;
+    margin-left: 15%;
+    margin-top: 22px;
+    margin-right: 120px;
+    border-radius: 5px;
+}  
+
+.Content3
+{
+    height: 300px;
+    width: 500px;
+    margin-top: 22px;
+    border-radius: 5px; 
+    margin-left: 150px;
+}
+
+.Content4
+{
+    margin-top: 40px;
+    margin-right: 140px;
+    margin-left: 150px;
+}
+
+.Text
+{
+    line-height: 22px;
+    font-size: 18px;
+}
+
+#Footer1
+{
+    width: 100%;
+    height: 375px;
+    display: flex;
+    background-color: #080101;
+    color: white;   
+}
+
+.FooterContent
+{
+    height: 300px;
+    width: 400px;
+}
+
+.FooterText
+{
+    padding-left: 100px;
+}
+
+#Footer2
+{
+    height: 160px;
+    text-align: center;
+    padding-top: 25px;
+    background-color: rgb(25, 24, 24);
+    color: white;
+}
+
+.ViewAll
+{  
+    font-size: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+    text-align: center;  
+}
+
+.FormImg
+{
+    background-image: url("image/FormImg.jpg");
+    background-repeat: no-repeat; 
+    width: 100vw; 
+    height: 100vh;  
+    background-size: contain;
+}
+
+.LoginForm
+{
+    display: inline-block; 
+    width: 350px;
+    margin-top: 69px;
+    margin-left: 160px;
+}
+
+.loginBtn
+{
+    background-color: #33A9E0;
+    width: 100px;
+    height: 35px;
+    padding-bottom: 6px;
+    color: white;
+    font-size: 19px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.RegistrationForm
+{
+    display: inline-block; 
+    width: 350px;
+    margin-top: 35px;
+    margin-left: 160px;
+}
+
+.ContactUsForm
+{
+    display: inline-block; 
+    width: 350px;
+    margin-top: 58px;
+    margin-left: 160px;
+}
+
+.AddCourseForm
+{
+    display: inline-block; 
+    width: 350px;
+    margin-top: 45px;
+    margin-left: 160px;
+}
+

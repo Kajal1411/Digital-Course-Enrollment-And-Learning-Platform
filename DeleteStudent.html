@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="#"><img class="logo" src="image/Demo2.png" height="50px" width="110px"></a>
+        <a href="AdminLogin.html">Home</a>
+        <a href="AdminAboutUs.html">About us</a>
+
+        <div class="dropdown">
+            <a class="btn btn-#D3DBDE dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 18px;">
+             Courses
+            </a>
+          
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="AddCourse.html">Add Course</a></li>
+              <li><a class="dropdown-item" href="UpadateCourse.html">Update course</a></li>
+              <li><a class="dropdown-item" href="DeleteCourse.html">Delete course</a></li>
+            </ul>
+          </div>
+
+          <div class="dropdown">
+            <a class="btn btn-#D3DBDE dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 18px;">
+             Student
+            </a>
+          
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="AddStudent.html">Add Student</a></li>
+              <li><a class="dropdown-item" href="UpdateStudent.html">Update Student</a></li>
+              <li><a class="dropdown-item" href="DeleteStudent.html">Delete Student</a></li>
+            </ul>
+          </div>
+
+          <div class="dropdown">
+            <a class="btn btn-#D3DBDE dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 18px;">
+             Instructor
+            </a>
+          
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="AddInstructor.html">Add Instructor</a></li>
+              <li><a class="dropdown-item" href="UpdateInstructor.html">Update Instructor</a></li>
+              <li><a class="dropdown-item" href="DeleteInstructor.html">Delete Instructor</a></li>
+            </ul>
+          </div>  
+
+        <a href="index.html" style="margin-right: 20px; margin-left: 420px;">Logout</a>
+    </nav> 
+    
+    <br><br>
+    <div class="FormImg">
+        <div style=" display: inline-block; text-align: center;"> <br><br> <br><br>
+         <form onsubmit="return data()" action="DeleteStudent.html" class="AddCourseForm"> 
+             <fieldset style="border: 3px solid black;">
+                     <br>
+                     <h3>Delete Student</h3><br>
+
+                <label for="sid" style="padding-right: 185px;"><b>Student Id:</b></label><br>
+                <input type="text" name="sid" id="sid" placeholder="Enter Student Id" size="30" style="height: 29px;"> <br><br>     
+ 
+                 <label for="sname" style="padding-right: 155px;"><b>Student Name:</b></label><br>
+                 <input type="text" name="sname" id="sname" placeholder="Enter Student Name" size="30" style="height: 29px;"> <br><br>
+ 
+                 <button type="submit" class="loginBtn">Delete</button><br><br><br>
+         </fieldset>
+         </form>
+        </div>
+     </div>
+      
+     <div id="Footer1" style="margin-top: -90px;">
+
+        <div class="FooterContent">
+            <h1 style="color: red; padding-left: 10px;"><i>SkillHub</i></h1>
+            <p style="padding-left: 10px;">SkillHub is a leading online learning platform that helps students and professionals upskill with industry-relevant courses. Our expert-designed curriculum covers in-demand technologies, ensuring learners stay ahead in their careers. Whether you're looking to master programming, data analytics, DevOps, or full-stack development, SkillHub provides hands-on training, real-world projects, and career guidance. Join thousands of learners who have successfully upskilled and secured jobs at top tech companies. Start your learning journey today and unlock new opportunities!</p>
+        </div>
+
+        <div class="FooterContent">
+            <div class="FooterText">
+            <h3 style="padding-top: 24px; color:orange ;">Get In Touch</h3>
+            <p>1234 Kharadi,Pune</p>
+            <p>skillhub@gmail.com</p>
+            <p>+1 234 567 890</p>
+            <p>09:00 AM - 08:00 PM</p>
+            </div>
+        </div>
+
+        <div class="FooterContent">
+            <div class="FooterText">
+            <h3 style="padding-top: 24px;color:orange ;">Quick Links</h3>
+            <p><a href="./index.html" style="color: white; text-decoration: none;">Home</a></p>
+            <p><a href="./about.html" style="color: white; text-decoration: none;">About Us</a></p>
+            <p><a href="./Courses.html" style="color: white; text-decoration: none;">Courses</a></p>
+            <p><a href="./ContactUs.html" style="color: white; text-decoration: none;">Contact us</a></p>
+            </div>
+        </div>
+
+        <div class="FooterContent">
+            <div class="FooterText">
+                <h3 style="padding-top: 24px;color:orange ;">Follow Us</h3>
+            <img src="image/Facebook.png" height="30px">
+            <img src="image/Twitter.jpg" height="30px" style="margin-left: 8px;">
+            <img src="image/insta.jpg" height="30px" style="margin-left: 12px;">       
+            </div>     
+        </div>
+
+    </div>
+
+    <div id="Footer2">
+        <h4>@2025 SkillHub.All rights reserved.</h4>
+        <h4>Privacy Policy</h4>
+        <h4>Terms of Service</h4>
+    </div>
+
+    <script>
+        function data()
+        {
+            var sid=document.getElementById("sid").value;
+            var sname=document.getElementById("sname").value;
+            if(sid==""||sname=="")
+            {
+                alert("All fields are mandatory");
+                return false;
+            }
+            else
+            {
+                alert("Student is deleted successfully!");
+                return true;
+            }    
+        }
+    </script>
+
+    
+</body>
+</html>
