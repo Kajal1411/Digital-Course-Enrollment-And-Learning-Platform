@@ -28,7 +28,7 @@
         <form onsubmit="return data()" action="Login.html" class="RegistrationForm"> 
             <fieldset style="border: 3px solid black;">
                     <br>
-                    <h3>Registration</h3><br>
+                    <h3>Registration</h3>
 
                     <label for="usertype" style="padding-right: 165px;"><b>Usertype:</b></label><br>
                     <select name="usertype" id="usertype" size="1" style="height: 30px; width: 260px;">
@@ -48,14 +48,18 @@
                 <label for="mob" style="padding-right: 155px;"><b>Mobile No.:</b></label><br>
                 <input type="text" name="mob" id="mob" placeholder="Enter your Mobile number" size="30" style="height: 29px;"> <br><br>
                
+                <label for="address" style="padding-right: 185px;"><b>Address:</label><br>
+                <input type="text" name="address" id="address" placeholder="Enter your Address" size="30" style="height: 29px;"> 
+                <br><br>
+
                 <label for="password" style="padding-right: 160px;"><b>Password:</b></label><br>
-                <input type="password" name="password" id="password" placeholder="Enter your Password" size="30" style="height: 29px;"> 
+                <input type="password" name="password" id="password" placeholder="Enter your Password" size="30" style="height: 29px"> 
                 <br><br>
 
                 <button type="submit" class="loginBtn">Register</button><br><br>
                 <p style="display: inline;">Already have an account?</p>
                 <a href="Login.html" style="display: inline;">Login</a>
-                <br><br>
+                <br>
         </fieldset>
         </form>
        </div>
@@ -114,7 +118,8 @@
                 var email=document.getElementById("email").value;
                 var mob=document.getElementById("mob").value;
                 var pass=document.getElementById("password").value;
-                if(Utype==""||email==""||pass==""||name==""||mob=="")
+                var add=document.getElementById("address").value;
+                if(Utype==""||email==""||pass==""||name==""||mob==""||add=="")
                 {
                     alert("All fields are mandatory");
                     return false;

@@ -9,56 +9,66 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
     <link rel="stylesheet" href="style.css" type="text/css">
 
 </head>
 
 <body>
         
-        <nav>
-            <a href="#"><img class="logo" src="image/Demo2.png" height="50px" width="110px"></a>
-            <a href="AdminLogin.html">Home</a>
-            <a href="AdminAboutUs.html">About us</a>
+    <nav>
+        <a href="#"><img class="logo" src="image/Demo2.png" height="50px" width="110px"></a>
+        <a href="AdminLogin.html">Home</a>
+        <a href="AdminAboutUs.html">About us</a>
 
-            <div class="dropdown">
-                <a class="btn btn-#D3DBDE dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 18px;">
-                 Courses
-                </a>
-              
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="AddCourse.html">Add Course</a></li>
-                  <li><a class="dropdown-item" href="UpadateCourse.html">Update course</a></li>
-                  <li><a class="dropdown-item" href="DeleteCourse.html">Delete course</a></li>
-                </ul>
-              </div>
+        <div class="dropdown">
+            <a class="btn btn-#D3DBDE dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 18px;">
+             Courses
+            </a>
+          
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="AddCourse.html">Add Course</a></li>
+              <li><a class="dropdown-item" href="UpadateCourse.html">Update course</a></li>
+              <li><a class="dropdown-item" href="DeleteCourse.html">Delete course</a></li>
+            </ul>
+          </div>
 
-              <div class="dropdown">
-                <a class="btn btn-#D3DBDE dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 18px;">
-                 Student
-                </a>
-              
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="AddStudent.html">Add Student</a></li>
-                  <li><a class="dropdown-item" href="UpdateStudent.html">Update Student</a></li>
-                  <li><a class="dropdown-item" href="DeleteStudent.html">Delete Student</a></li>
-                </ul>
-              </div>
+          <div class="dropdown">
+            <a class="btn btn-#D3DBDE dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 18px;">
+             Student
+            </a>
+          
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="AddStudent.html">Add Student</a></li>
+              <li><a class="dropdown-item" href="UpdateStudent.html">Update Student</a></li>
+              <li><a class="dropdown-item" href="DeleteStudent.html">Delete Student</a></li>
+            </ul>
+          </div>
 
-              <div class="dropdown">
-                <a class="btn btn-#D3DBDE dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 18px;">
-                 Instructor
-                </a>
-              
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="AddInstructor.html">Add Instructor</a></li>
-                  <li><a class="dropdown-item" href="UpdateInstructor.html">Update Instructor</a></li>
-                  <li><a class="dropdown-item" href="DeleteInstructor.html">Delete Instructor</a></li>
-                </ul>
-              </div>  
-   
-            <a href="index.html" style="margin-right: 20px; margin-left: 420px;">Logout</a>
-        </nav> 
+          <div class="dropdown">
+            <a class="btn btn-#D3DBDE dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 18px;">
+             Instructor
+            </a>
+          
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="AddInstructor.html">Add Instructor</a></li>
+              <li><a class="dropdown-item" href="UpdateInstructor.html">Update Instructor</a></li>
+              <li><a class="dropdown-item" href="DeleteInstructor.html">Delete Instructor</a></li>
+            </ul>
+          </div>  
 
+        <div class="dropdown"  style="margin-right: 20px; margin-left: 420px;">
+            <i class=" fs-3 btn btn-#D3DBDE bi bi-person-circle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="UpdateProfileAdmin.html">Update Profile</a></li>
+              <li><a class="dropdown-item" href="ChangePassAdmin.html">Change Password</a></li>
+              <li><a class="dropdown-item" href="index.html">Logout</a></li>
+            </ul>
+        </div>
+
+    </nav> 
+    
     <main>
 
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
